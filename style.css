@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 380px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f1f1;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.task-buttons button {
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.tick-btn {
+  background-color: green;
+  color: white;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+/* Light Theme (Default) */
+body {
+  background-color: #fff8e1;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.container {
+  background-color: white;
+}
+
+/* Dark Theme */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .container {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode input[type="text"] {
+  background-color: #2c2c2c;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark-mode li {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+body.dark-mode button {
+  opacity: 0.95;
+}
