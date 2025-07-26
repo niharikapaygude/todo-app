@@ -36,5 +36,5 @@ Clone or download this repo
 Open index.html in your browser
 
 Or view the hosted version here:
-👉 Live Site ← (Replace with your real link)
+👉 Live Site ← https://niharikapaygude.github.io/todo-app/
 
